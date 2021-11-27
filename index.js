@@ -24,9 +24,8 @@ let moment = require('moment');
 // console.log(moment('2020-01-01').isAfter('2018-01-01'));
 // console.log(moment('2010-01-01').isAfter('2019-01-01'));
 
-// console.log(moment([2020]).isLeapYear()); 
+// console.log(moment([2020]).isLeapYear());
 // console.log(moment([2019]).isLeapYear());
-
 
 console.log(loadash.chunk(['a', 'b', 'c', 'd'], 2));
 
@@ -34,7 +33,7 @@ console.log(loadash.compact([0, 1, false, 2, '', 3]));
 
 var array = [1];
 var other = loadash.concat(array, 2, [3], [[4]]);
- 
+
 console.log(other);
 
 console.log(loadash.difference([2, 1], [2, 3]));
